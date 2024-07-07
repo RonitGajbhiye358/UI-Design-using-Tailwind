@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Courses - Learn to Code Anywhere, Anytime | PW Skills</title>
+  <link rel="icon" type="image/x-icon" href="https://pwskills.com/images/favicon.ico">
+  <link href="./src/output.css" rel="stylesheet">
+
+
+
+  <style>
+    .scroll-content {
+      display: flex;
+
+      animation: scroll 15s linear infinite alternate;
+    }
+
+    .scroll-content div {
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 148px;
+      box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 12px;
+      align-content: center;
+      padding: 10px 0px;
+      margin: 20px 20px;
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(calc(-300px * 10));
+      }
+    }
+  </style>
+</head>
+
+<body class="overflow-auto relative ">
+ <button
+ class="fixed z-10 right-6 bottom-6 bg-[rgb(232,120,99)] w-32 font-semibold py-2 text-white rounded-full h-11 cursor-pointer">Need
+ Help?</button>
+
+
+  <nav class="w-full shadow-md py-4 ">
+    <div class="w-5/6 mx-auto mt-4 gap-8  flex justify-center sm:justify-between  lg:justify-evenly items-center "><img
+        src="images/logo.svg" alt="pwskills" />
+      <div class=" sm:w-4/5 w-10 h-11 border rounded flex gap-4 items-center ">
+        <img class="w-10 p-2 " src=/images/searchicon.svg alt="search" />
+        <input class="placeholder:text-[rgb(116,116,117)] w-0 sm:w-full outline-none text-lg " type="text"
+          placeholder="Search by product title" />
+      </div>
+      <button
+        class="bg-[rgb(232,120,99)] sm:w-48 font-medium-bold py-2 text-white rounded h-11 invisible w-0 sm:visible">Login
+        /
+        Register</button>
+    </div>
+    <div class="flex justify-center items-center flex-wrap  text-base w-auto mt-8 font-semibold text-[rgb(61,61,61)] ">
+      <span
+        class=" drop-shadow-md cursor-pointer bg-[rgb(250,248,247)] px-6 py-3 flex gap-2 items-center justify-center rounded">Courses<svg
+          class="h-6 w-4" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M112 184L256 328L400 184" stroke="blue" stroke-width="48" stroke-linecap="round"
+            stroke-linejoin="round"></path>
+        </svg></span>
+      <span class="cursor-pointer m-4 sm:m-6">Online Degree</span>
+      <span class="cursor-pointer m-4 sm:m-6">PW Skills Lab</span>
+      <span class="cursor-pointer m-4 sm:m-6">Job Portal</span>
+      <span class="cursor-pointer m-4 sm:m-6">Experience Portal</span>
+      <span class="cursor-pointer m-4 sm:m-6">Become An Affiliate</span>
+      <span class="cursor-pointer m-4 sm:m-6">Courses</span>
+    </div>
+  </nav>
+
+  <main>
+    <section class="w-5/6 mx-auto flex justify-between sm:flex-row flex-col items-center">
+      <div class="w-5/6 sm:2/6 my-5 sm:my-0">
+        <h1 class="font-bold text-[rgb(61,61,61)] text-4xl">Stay Ahead Of The Curve</h1>
+        <div class="font-bold text-[rgb(61,61,61)] text-4xl">With Our<h1
+            class="font-bold text-4xl text-[rgb(232,120,99)]">
+            < AFFORDABLE|>
+          </h1>
+        </div>
+
+        <h1 class="font-bold text-[rgb(61,61,61)] text-4xl">Courses</h1>
+        <h5 class="text-pretty">PW Skills is your one-stop-shop for upscaling. Get maximum value for time
+          and resources you invest, with job-ready courses & high-technology,
+          available at the lowest cost.</h5>
+        <button class="bg-[rgb(232,120,99)] w-48 font-medium-bold py-2 text-white rounded h-11 mt-8">Explore
+          Courses</button>
+      </div>
+      <div class="sm:w-[38rem] w-96">
+        <img class="relative " src="images/hero-bg.png" alt="bg">
+        <img class="absolute sm:visible invisible right-[20px] top-[82px]" src="images/hero-shadow.png"
+          alt="pink-shadow">
+      </div>
+    </section>
+
+    <section class="w-5/6 mx-auto my-10 flex justify-between flex-col sm:flex-row items-center">
+
+      <div
+        class="rounded-lg p-[14px] m-2 sm:w-1/4 w-5/6 font-nunitoSans flex items-center justify-start py-6 px-6 shadow-lg gap-x-4 ">
+        <img src="/images/statistics.png" alt="figure" class="w-12 h-12">
+        <div>
+          <h4 class="text-lg leading-[26px]  font-interSans font-bold text-gray-850">
+            55%</h4>
+          <p class="text-sm leading-[21px] font-normal text-gray-850">Average
+            Salary Hike</p>
+        </div>
+      </div>
+      <div
+        class="rounded-lg p-[14px] m-2 sm:w-1/4 w-5/6 font-nunitoSans flex items-center justify-start py-6 px-6 shadow-lg gap-x-4 ">
+        <img src="/images/statistics2.png" alt="figure" class="w-12 h-12">
+        <div>
+          <h4 class="text-lg leading-[26px]  font-interSans font-bold text-gray-850">
+            600+</h4>
+          <p class="text-sm leading-[21px] font-normal text-gray-850">Average
+            Different Courses</p>
+        </div>
+      </div>
+      <div
+        class="rounded-lg p-[14px] m-2 sm:w-1/4 w-5/6 font-nunitoSans flex items-center justify-start py-6 px-6 shadow-lg gap-x-4 ">
+        <img src="/images/statistics3.png" alt="figure" class="w-12 h-12">
+        <div>
+          <h4 class="text-lg leading-[26px]  font-interSans font-bold text-gray-850">
+            12000+</h4>
+          <p class="text-sm leading-[21px] font-normal text-gray-850">Average
+            Career Trasition</p>
+        </div>
+      </div>
+      <div
+        class="rounded-lg p-[14px] m-2 sm:w-1/4 w-5/6 font-nunitoSans flex items-center justify-start py-6 px-6 shadow-lg gap-x-4 ">
+        <img src="/images/statistics4.png" alt="figure" class="w-12 h-12">
+        <div>
+          <h4 class="text-lg leading-[26px]  font-interSans font-bold text-gray-850">
+            400+</h4>
+          <p class="text-sm leading-[21px] font-normal text-gray-850">Average
+            Hiring patterns</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full py-20 bg-[rgb(248,251,250)]">
+      <div class="w-5/6 mx-auto gap-8 flex justify-between  items-center flex-col sm:flex-row">
+        <div class="sm:w-3/6 5/6 ">
+          <h1 class="font-semibold text-[rgb(61,61,61)] text-xl my-5">Online Degree</h1>
+          <div class="font-bold text-[rgb(61,61,61)] text-6xl">Where<h1
+              class="font-bold text-6xl text-[rgb(227,61,165)]">
+              Learning Meets
+            </h1>The Expectation</div>
+
+          <h5 class="text-gray-500 text-pretty mt-10 font-semibold text-xl ">At PW Skills, we are
+            Revolutionising your journey of stepping your first
+            foot into your Career through our college programs with partnering up with Top Tier Colleges
+          </h5>
+          <button class="bg-[rgb(232,120,99)] w-48 font-medium-bold py-2 text-white rounded h-11 mt-8">Explore
+            Courses
+        </div>
+        <div class="">
+          <img class="relative" src="images/homepage-degree.svg" alt="bg">
+        </div>
+      </div>
+    </section>
+
+    <section class="my-20 relative z-0">
+      <div class="w-5/6 m-auto">
+        <h1 class="font-bold text-[rgb(61,61,61)] text-3xl my-2">Explore Our Categories</h1>
+        <h3 class="font-semibold text-[rgb(117,117,117)]">Discover Your Passion</h3>
+      </div>
+
+      <div class="w-5/6 m-auto grid sm:grid-cols-3 grid-cols-1 ">
+        <div class="shadow-md mt-4 mx-2 hover:shadow-lg">
+          <div class="flex justify-center items-center p-4 bg-[rgb(248,251,250)]">
+            <div class="bg-[rgb(248,251,250)]">
+              <h1 class="text-lg font-semibold">Data Science & Analytics</h1>
+              <h1 class="text-[rgb(117,117,117)] text-wrap">Become expert at drawing intelligence from data and get
+                noticed by top companies</h1>
+            </div>
+            <img src="images/ai.svg" alt="ai image">
+          </div>
+          <div class="cursor-pointer flex justify-between items-center m-4">
+            <h1 class="text-[rgb(117,117,117)]">Know more</h1>
+            <img src="images/know_more.svg" alt="know more image">
+          </div>
+        </div>
+
+        <div class="shadow-md mt-4 mx-2 hover:shadow-lg">
+          <div class="flex justify-center items-center p-4 bg-[rgb(248,251,250)]">
+            <div class="bg-[rgb(248,251,250)]">
+              <h1 class="text-lg font-semibold">Data Science & Analytics</h1>
+              <h1 class="text-[rgb(117,117,117)] text-wrap">Become expert at drawing intelligence from data and get
+                noticed by top companies</h1>
+            </div>
+            <img src="images/da.svg" alt="da image">
+          </div>
+          <div class="cursor-pointer flex justify-between items-center m-4">
+            <h1 class="text-[rgb(117,117,117)]">Know more</h1>
+            <img src="images/know_more.svg" alt="know more image">
+          </div>
+        </div>
+
+        <div class="shadow-md mt-4 mx-2 hover:shadow-lg">
+          <div class="flex justify-center items-center p-4 bg-[rgb(248,251,250)]">
+            <div class="bg-[rgb(248,251,250)]">
+              <h1 class="text-lg font-semibold">Data Science & Analytics</h1>
+              <h1 class="text-[rgb(117,117,117)] text-wrap">Become expert at drawing intelligence from data and get
+                noticed by top companies</h1>
+            </div>
+            <img src="images/ai.svg" alt="ai image">
+          </div>
+          <div class="cursor-pointer flex justify-between items-center m-4">
+            <h1 class="text-[rgb(117,117,117)]">Know more</h1>
+            <img src="images/know_more.svg" alt="know more image">
+          </div>
+        </div>
+
+        <div class="shadow-md mt-4 mx-2 hover:shadow-lg">
+          <div class="flex justify-center items-center p-4 bg-[rgb(248,251,250)]">
+            <div class="bg-[rgb(248,251,250)]">
+              <h1 class="text-lg font-semibold">Data Science & Analytics</h1>
+              <h1 class="text-[rgb(117,117,117)] text-wrap">Become expert at drawing intelligence from data and get
+                noticed by top companies</h1>
+            </div>
+            <img src="images/da.svg" alt="da image">
+          </div>
+          <div class="cursor-pointer flex justify-between items-center m-4">
+            <h1 class="text-[rgb(117,117,117)]">Know more</h1>
+            <img src="images/know_more.svg" alt="know more image">
+          </div>
+        </div>
+
+        <div class="shadow-md mt-4 mx-2 hover:shadow-lg">
+          <div class="flex justify-center items-center p-4 bg-[rgb(248,251,250)]">
+            <div class="bg-[rgb(248,251,250)]">
+              <h1 class="text-lg font-semibold">Data Science & Analytics</h1>
+              <h1 class="text-[rgb(117,117,117)] text-wrap">Become expert at drawing intelligence from data and get
+                noticed by top companies</h1>
+            </div>
+            <img src="images/pc.svg" alt="pc image">
+          </div>
+          <div class="cursor-pointer flex justify-between items-center m-4">
+            <h1 class="text-[rgb(117,117,117)]">Know more</h1>
+            <img src="images/know_more.svg" alt="know more image">
+          </div>
+        </div>
+      </div>
+
+      <img class="absolute -bottom-20 right-0" src="images/bg_right_bottom.svg" alt="background image" />
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <div class="w-full  m-auto py-20 bg-[rgb(252,249,249)] ">
+      <h1 class="w-5/6 mx-auto  text-3xl font-bold mb-4">Our Achievers Work With</h1>
+      <div class="w-5/6 mx-auto  scroll-container flex overflow-hidden relative">
+        <div class="scroll-content rounded-lg">
+          <div><img class="object-contain aspect-[4/2]" src="images/C1.png" alt="Image 1"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C2.jpg" alt="Image 2"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C3.jpg" alt="Image 3"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C4.jpg" alt="Image 4"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C5.png" alt="Image 5"></div>
+          <div><img class="object-contain h-[5.25rem] aspect-[4/2]" src="images/C6.jpeg" alt="Image 6"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C7.png" alt="Image 7"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C8.jpg" alt="Image 8"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C9.jpg" alt="Image 9"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C10.jpg" alt="Image 10"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C1.png" alt="Image 1"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C2.jpg" alt="Image 2"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C3.jpg" alt="Image 3"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C4.jpg" alt="Image 4"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C5.png" alt="Image 5"></div>
+          <div><img class="object-contain h-[5.25rem] aspect-[4/2]" src="images/C6.jpeg" alt="Image 6"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C7.png" alt="Image 7"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C8.jpg" alt="Image 8"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C9.jpg" alt="Image 9"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C10.jpg" alt="Image 10"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C1.png" alt="Image 1"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C2.jpg" alt="Image 2"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C3.jpg" alt="Image 3"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C4.jpg" alt="Image 4"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C5.png" alt="Image 5"></div>
+          <div><img class="object-contain h-[5.25rem] aspect-[4/2]" src="images/C6.jpeg" alt="Image 6"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C7.png" alt="Image 7"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C8.jpg" alt="Image 8"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C9.jpg" alt="Image 9"></div>
+          <div><img class="object-contain aspect-[4/2]" src="images/C10.jpg" alt="Image 10"></div>
+        </div>
+      </div>
+      <div class="w-5/6 mx-auto h-16 z flex justify-evenly items-center mb-10">
+        <button class="scroll-button w-12 h-2" onclick="Left()"><img src="images/leftscroll.jpg" /></button>
+        <button class="scroll-button w-12 h-2" onclick="Right()"><img src="images/rightscroll.jpg" /></button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class=" w-full relative h-1/4 bg-[rgb(26,33,37)]">
+      <div
+        class="py-20 px-2 w-5/6 m-auto text-[rgb(117,117,117)] flex justify-between  gap-5 flex-col 2xl:flex-row">
+
+        <div class="footer1 relative ">
+          <img class="top-0 mx-2 mb-12" src="images/whitelogo.svg" alt="logo">
+          <ul>
+            <li class="flex justify-start items-center gap-2 m-3"><img class="w-5 h-5" src="images/msg.svg" alt="msg"><a
+                class="hover:text-gray-100" href="mailto:support@pwskills.com">
+                <p class="text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                  support@pwskills.com</p>
+              </a></li>
+            <li class="flex justify-start items-center gap-2 m-3"><img class="w-5 h-5" src="images/call.svg"
+                alt="call"><a class="hover:text-gray-100" href="tel:+919422115745">
+                <p class="text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                  +91-9422115745</p>
+              </a></li>
+          </ul>
+        </div>
+
+        <div class=" flex  xl:justify-between  w-3/5 flex-col  lg:flex-row">
+          <div>
+            <h1 class="text-lg font-bold text-white mb-4">Company</h1>
+            <span class="absolute bg-orange-500 w-[20rem] h-1 rounded"></span>
+            <div class="flex flex-wrap justify-between mt-12 w-72 flex-col min-[500px]:flex-row min-[500px]:w-[28rem]">
+              <div
+                class=" cursor-pointer w-1/2 py-3 text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                About us</div>
+              <div
+                class=" cursor-pointer w-1/2 py-3 text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                Contact us</div>
+              <div
+                class=" cursor-pointer w-1/2 py-3 text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                FAQ</div>
+              <div
+                class=" cursor-pointer w-1/2 py-3 text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                Privacy policy</div>
+              <div
+                class=" cursor-pointer w-1/2 py-3 text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                Job Assistance</div>
+              <div
+                class=" cursor-pointer w-1/2 py-3 text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                T&C</div>
+            </div>
+          </div>
+          <div>
+            <h1 class="text-lg font-bold text-white mb-4">Products</h1>
+            <span class="absolute bg-orange-500 w-[20rem] h-1 rounded"></span>
+            <div class="flex flex-wrap justify-between mt-12 w-72 flex-col min-[500px]:flex-row min-[500px]:w-[28rem]">
+              <div
+                class=" cursor-pointer w-1/2 py-3 text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                Pw Skills Lab</div>
+              <div
+                class=" cursor-pointer w-1/2 py-3 text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                Job Portals</div>
+              <div
+                class=" cursor-pointer w-1/2 py-3 text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                Experience Portal</div>
+              <div
+                class=" cursor-pointer w-1/2 py-3 text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                Become an affiliate</div>
+              <div
+                class=" cursor-pointer w-1/2 py-3 text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                Hall Of Fame</div>
+              <div
+                class=" cursor-pointer w-1/2 py-3 text-base medium:text-base leading-[21px] medium:leading-6 font-semibold text-gray-300">
+                Blog</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </footer>
+
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
